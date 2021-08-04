@@ -39,8 +39,7 @@ const useProps = () => {
     langs,
     setLang: noop,
     currentLang: "EN",
-    cakePriceUsd: 3.00,
-	afitPriceUsd: 0.01,
+    cakePriceUsd: 0.023158668932877668,
     links,
     profile: null,
   });
@@ -56,8 +55,7 @@ const useProps = () => {
         langs,
         setLang: noop,
         currentLang: "EN",
-        cakePriceUsd: 3.00,
-		afitPriceUsd: 0.01,
+        cakePriceUsd: 0.023158668932877668,
         links,
         profile: null,
       });
@@ -151,8 +149,7 @@ export const WithSubmenuSelected: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={3.00}
-		afitPriceUsd={0.01}
+        cakePriceUsd={0.23158668932877668}
         links={links}
       >
         <div>

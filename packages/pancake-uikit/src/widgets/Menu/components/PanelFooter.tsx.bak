@@ -5,7 +5,6 @@ import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
 import CakePrice from "./CakePrice";
-import AFITPrice from "./AFITPrice";
 import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
@@ -24,7 +23,7 @@ const SettingsEntry = styled.div`
   align-items: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: 0 16px;
+  padding: 0 8px;
 `;
 
 const SocialEntry = styled.div`
@@ -41,7 +40,6 @@ const PanelFooter: React.FC<Props> = ({
   toggleTheme,
   isDark,
   cakePriceUsd,
-  afitPriceUsd,
   currentLang,
   langs,
   setLang,
@@ -63,9 +61,8 @@ const PanelFooter: React.FC<Props> = ({
         <SocialLinks />
       </SocialEntry>
       <SettingsEntry>
-        <AFITPrice afitPriceUsd={afitPriceUsd} />
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-			{/* <!-- <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} /> --> */ }
+        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
       </SettingsEntry>
     </Container>
   );

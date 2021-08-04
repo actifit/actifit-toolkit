@@ -127,15 +127,15 @@ export const links = [
       },
       {
         label: 'Contact',
-        href: 'info@actifit.io',
+        href: 'mailto:info@actifit.io',
       },
       {
-        label: 'BSC Scan AFIT',
-        href: 'https://bscscan.com/token/0x4516bb582f59befcbc945d8c2dac63ef21fba9f6',
+        label: "Docs",
+        href: "https://docs.pancakeswap.finance",
       },
       {
-        label: 'BSC Scan AFITX',
-        href: 'https://bscscan.com/token/0x246d22ff6e0b90f80f2278613e8db93ff7a09b95',
+        label: "Blog",
+        href: "https://pancakeswap.medium.com",
       },
     ],
   },
@@ -145,12 +145,65 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/actifit",
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/pancakeswap",
+      },
+      {
+        label: "Bahasa Indonesia",
+        href: "https://t.me/PancakeSwapIndonesia",
+      },
+      {
+        label: "中文",
+        href: "https://t.me/PancakeSwap_CN",
+      },
+      {
+        label: "Tiếng Việt",
+        href: "https://t.me/PancakeSwapVN",
+      },
+      {
+        label: "Italiano",
+        href: "https://t.me/pancakeswap_ita",
+      },
+      {
+        label: "русский",
+        href: "https://t.me/pancakeswap_ru",
+      },
+      {
+        label: "Türkiye",
+        href: "https://t.me/pancakeswapturkiye",
+      },
+      {
+        label: "Português",
+        href: "https://t.me/PancakeSwapPortuguese",
+      },
+      {
+        label: "Español",
+        href: "https://t.me/PancakeswapEs",
+      },
+      {
+        label: "日本語",
+        href: "https://t.me/pancakeswapjp",
+      },
+      {
+        label: "Français",
+        href: "https://t.me/pancakeswapfr",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/PancakeSwapAnn",
+      },
+      {
+        label: "Whale Alert",
+        href: "https://t.me/PancakeSwapWhales",
+      },
+    ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://www.twitter.com/Actifit_fitness",
+    href: "https://twitter.com/pancakeswap",
   },
 ];
 
